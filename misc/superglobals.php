@@ -12,5 +12,3 @@ function dd($var){
 }
 
 dd($_SERVER['DOCUMENT_ROOT']);
-
-echo "Salam";
