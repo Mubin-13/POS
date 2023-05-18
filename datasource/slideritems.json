@@ -2,7 +2,7 @@
     {
         "id":1,
         "uuid":"asdf",
-        "src": "https://wowslider.com/sliders/demo-93/data1/images/lake.jpg",
+        "src": "https://img.freepik.com/free-photo/girl-have-excellent-idea-saying-out-loud-excited-cute-redhead-woman-with-curly-long-hair-extend-inde_1258-126289.jpg?w=1380&t=st=1684423596~exp=1684424196~hmac=c71d171fc93e984dd7cfeb3ce7b818b8f3a533cf28618b88c8aa51f26c16dc59",
         "alt": "Slider 1 alter",
         "title": "First slide label",
         "caption": "Some representative placeholder content for the first slide."
@@ -10,7 +10,7 @@
     {
         "id":2,
         "uuid":"asdfs",
-        "src": "https://mdbootstrap.com/img/Photos/Slides/img%20(130).webp",
+        "src": "https://img.freepik.com/free-photo/creative-talented-goodlooking-female-college-student-prepare-schedule-tomorrow-classes-writi_1258-139232.jpg?w=1380&t=st=1684423648~exp=1684424248~hmac=431d1f6704ca7a865d164427ba320d7d703c71983204d257076821cacbea93d6",
         "alt": "Slider 2 alter",
         "title": "Second slide label",
         "caption": "Some representative placeholder content for the second slide."
@@ -18,10 +18,18 @@
     {
         "id":3,
         "uuid":"dfgdfg",
-        "src": "https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(31).webp",
+        "src": "https://img.freepik.com/free-photo/travel-concept-close-up-portrait-young-beautiful-attractive-redhair-girl-wtih-trendy-hat-sunglas_1258-132677.jpg?w=1380&t=st=1684423682~exp=1684424282~hmac=e43d8a1c354bd2cc56d6cd6401fa71135322ecc2d76338f5343fa60bff91ba84",
         "alt": "Slider 3 alter",
         "title": "Third slide label",
         "caption": "Some representative placeholder content for the third slide."
     },
+    {
+        "id":2,
+        "uuid":"asdfs",
+        "src": "https://img.freepik.com/free-photo/creative-talented-goodlooking-female-college-student-prepare-schedule-tomorrow-classes-writi_1258-139232.jpg?w=1380&t=st=1684423648~exp=1684424248~hmac=431d1f6704ca7a865d164427ba320d7d703c71983204d257076821cacbea93d6",
+        "alt": "Slider 2 alter",
+        "title": "Second slide label",
+        "caption": "Some representative placeholder content for the second slide."
+    }
    
 ] 
