@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 62 (101010) - https://sketch.com -->
+    <title>C414477F-7FBF-4070-8681-0A4C280ABB61</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M9.2224,24 L13.6688,24 L13.6688,12 L16.9696,12 L17.3744,7.2 L13.8416,7.2 L13.8416,5.2816 C13.8416,4.3456 14.4192,4.128 14.824,4.128 L17.3168,4.128 L17.3168,0.0144 L13.8832,0 C10.072,0 9.2048,3.0672 9.2048,5.0304 L9.2048,7.2 L7,7.2 L7,12 L9.2224,12 L9.2224,24 Z" id="path-1"></path>
+    </defs>
+    <g id="Asset-Artboard-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon/account-Icon/social/facebook">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#151415" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

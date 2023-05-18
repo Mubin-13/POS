@@ -1,0 +1,133 @@
+[
+    {
+      "title": "User Mangagment",
+      "icon": "icon-users",
+      "sub": {
+        "title": {
+          "User": "user.php",
+          "Roles": "roles.php",
+          "Sales Commision Agents": "commision.php"
+          
+        }
+      }
+    },
+    {
+        "title": "Contacts",
+        "icon": "icon-users4",
+        "sub": {
+          "title": {
+            "Supplier": "Suppliers.php",
+            "Coustomers": "coustomers.php",
+            "Coustomers Group": "coustomers.php",
+            "Import Contacts": "importcontacts.php"
+          }
+        }
+      },
+      {
+        "title": "Product",
+        "icon": "icon-store",
+        "sub": {
+          "title": {
+            "List Product": ".php",
+            "Add Product": ".php",
+            "Input Product": ".php",
+            "Catagory": ".php",
+            "Sub Catagory": ".php",
+            "Brand": ".php",
+            "units": ".php",
+            "Input Opening Stock": ".php",
+            "Selling Price group": ".php",
+            "Warranty": ".php"
+          }
+        }
+      } ,
+    {
+        "title": "Purchase",
+        "icon": "icon-cart2 ",
+        "sub": {
+          "title": {
+            "List Purchase": "Suppliers.php",
+            "Add Purchase": "coustomers.php",
+            "list purchase Return": "coustomers.php"
+          }
+        }
+      },
+      {
+        "title": "Sale",
+        "icon": "icon-coins",
+        "sub": {
+          "title": {
+            "All Sale List": ".php",
+            "Add Sale": ".php",
+            "Add Draft": ".php",
+            "<b>POS</b> ": ".php",
+            "Add Quotation": ".php",
+            "List Sales Return": ".php",
+            "Cerate Sales Return": ".php",
+            "Shipmants": ".php",
+            "Discount": ".php",
+            "Import Sale": ".php"
+          }
+        }
+      } ,
+      {
+          "title": "Stock Transfer",
+          "icon": "icon-arrow-right16  ",
+          "sub": {
+            "title": {
+              "List Stock Transfer": ".php",
+              "Add stock transfer": ".php"
+            }
+          }
+        },
+        {
+            "title": "Stock Adjustments",
+            "icon": "icon-sort-time-asc ",
+            "sub": {
+              "title": {
+                "List Stock Adjustments": ".php",
+                "Add stock Adjustments": ".php"
+              }
+            }
+          },
+          {
+              "title": "Expenses",
+              "icon": "icon-notebook",
+              "sub": {
+                "title": {
+                  "List Expenses": "Sppliers.php",
+                  "Add Expenses": ".php",
+                  "Expanse Catagories": ".php"
+                }
+              }
+            },
+            {
+                "title": "Payment Accounts",
+                "icon": "icon-calculator ",
+                "sub": {
+                  "title": {
+                    "List Accounts": ".php",
+                    "Blance Sheet": ".php",
+                    "Trial Balance": ".php",
+                    "Cash Flow": ".php"
+                  }
+                }
+              }
+
+
+              ,
+            {
+                "title": "Slider Create",
+                "icon": "icon-home ",
+                "sub": {
+                  "title": {
+                    "List Accounts": ".php",
+                    "Blance Sheet": ".php",
+                    "Trial Balance": ".php",
+                    "Cash Flow": ".php"
+                  }
+                }
+              }
+    
+  ]
+  

@@ -1,0 +1,5 @@
+<svg role="img" class="icon svg-icon up-arrow" width="16" height="16" aria-labelledby="title" aria-describedby="desc" xmlns="http://www.w3.org/2000/svg">
+                <title> icon</title>
+                <desc>icon</desc>
+                <use xlink:href="#up-icon"></use>
+            </svg>
