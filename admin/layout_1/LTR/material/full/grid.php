@@ -47,12 +47,25 @@ $slides = json_decode($dataslide, "ture");
 
             <!-- Image grid -->
             <div class="mb-3">
-              <h6 class="mb-0 font-weight-semibold">
-                Create | Trash | Download XL | Download PDF | Print View
-              </h6>
-              <span class="text-muted d-block">
-
-              </span>
+            <ul class="list-inline list-inline-condensed mt-3 mb-0">
+                         
+            <a href=""><li class="list-inline-item"><a href="#" class="btn btn-outline bg-success btn-icon text-success border-success border-2 rounded-round">
+                              <i class="icon-plus3"></i></a>
+                          </li>
+                          </a>
+                          <li class="list-inline-item"><a href="#" class="btn btn-outline bg-info btn-icon text-info border-info border-2 rounded-round">
+                              <i class="icon-twitter"></i></a>
+                          </li>
+                          <li class="list-inline-item"><a href="#" class="btn btn-outline bg-grey-800 btn-icon text-grey-800 border-grey-800 border-2 rounded-round">
+                              <i class="icon-github"></i></a>
+                          </li>
+                          <li class="list-inline-item"><a href="#" class="btn btn-outline bg-grey-800 btn-icon text-grey-800 border-grey-800 border-2 rounded-round">
+                              <i class="icon-github"></i></a>
+                          </li>
+                          <li class="list-inline-item"><a href="#" class="btn btn-outline bg-grey-800 btn-icon text-grey-800 border-grey-800 border-2 rounded-round">
+                              <i class="icon-github"></i></a>
+                          </li>
+                        </ul>
             </div>
 
             <div class="row">

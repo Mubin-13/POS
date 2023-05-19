@@ -25,7 +25,7 @@
         
         "id":3,
         "uuid":"03",
-        "src":"../../../../global_assets/images/brands/colgate.png",
+        "src":"../../../../global_assets/images/brands/adwords.png",
         "BrandName":"Colgate",
         "alt":"Adidas",
         "BrandCode":"BN001",
@@ -36,7 +36,7 @@
         
         "id":4,
         "uuid":"04",
-        "src":"../../../../global_assets/images/brands/colgate.png",
+        "src":"../../../../global_assets/images/brands/amazon.png",
         "BrandName":"Colgate",
         "alt":"Adidas",
         "BrandCode":"BN001",
@@ -47,7 +47,7 @@
         
         "id":5,
         "uuid":"asdf",
-        "src":"../../../../global_assets/images/brands/colgate.png",
+        "src":"../../../../global_assets/images/brands/bing.png",
         "BrandName":"Colgate",
         "alt":"Adidas",
         "BrandCode":"BN001",

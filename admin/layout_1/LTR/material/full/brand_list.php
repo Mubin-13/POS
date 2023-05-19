@@ -80,7 +80,7 @@ $slides = json_decode($dataslide, "ture");
               <td><span class="badge badge-success"><?=$slide['Createdby']?></span></td>
               <td class="text-center">
                 <div class="list-icons">
-                  <a href="#" class="list-icons-item"><i class="icon-eye"></i></a>
+                  <a href="grid_index.php?sliderIndex=<?=$key-1?>" class="list-icons-item"><i class="icon-eye"></i></a>
                   <a href="#" class="list-icons-item"><i class="icon-pencil7"></i></a>
                   <a href="#" class="list-icons-item"><i class="icon-trash"></i></a>
                 </div>
