@@ -5,6 +5,7 @@
         "uuid":"01",
         "src":"../../../../global_assets/images/brands/adidas.png",
         "BrandName":"Adidas",
+        "alt":"Adidas",
         "BrandCode":"BN001",
         "Discription":"Shoes,Sportswear",
         "Createdby":"Admin"
@@ -15,6 +16,7 @@
         "uuid":"02",
         "src":"../../../../global_assets/images/brands/colgate.png",
         "BrandName":"Colgate",
+        "alt":"Adidas",
         "BrandCode":"BN001",
         "Discription":"Shoes,Sportswear",
         "Createdby":"Admin"
@@ -25,6 +27,7 @@
         "uuid":"03",
         "src":"../../../../global_assets/images/brands/colgate.png",
         "BrandName":"Colgate",
+        "alt":"Adidas",
         "BrandCode":"BN001",
         "Discription":"Shoes,Sportswear",
         "Createdby":"Admin"
@@ -35,6 +38,7 @@
         "uuid":"04",
         "src":"../../../../global_assets/images/brands/colgate.png",
         "BrandName":"Colgate",
+        "alt":"Adidas",
         "BrandCode":"BN001",
         "Discription":"Shoes,Sportswear",
         "Createdby":"Admin"
@@ -45,6 +49,7 @@
         "uuid":"asdf",
         "src":"../../../../global_assets/images/brands/colgate.png",
         "BrandName":"Colgate",
+        "alt":"Adidas",
         "BrandCode":"BN001",
         "Discription":"Shoes,Sportswear",
         "Createdby":"Admin"

@@ -34,16 +34,7 @@ $slides = json_decode($dataslide, "ture");
        <!-- Content Header -->
       <?php include_once($partials . 'Brand_content_header.php') ?>
       <!-- Content Header -->
-       <div class="card card-body ">
-							<div class="text-left ">
-		                        
-		                       <a href="brand_list.php"type="button" class="btn bg-teal btn-ladda btn-ladda-progress" data-style="expand-left" data-spinner-size="20">List View</a>
-		                       <a href="grid.php"type="button" class="btn bg-teal btn-ladda btn-ladda-progress" data-style="expand-left" data-spinner-size="20">Grid View</a>
-	                      
-	                        </div>
-						</div> 
-      
-      <table class="table datatable-basic ">
+        <table class="table datatable-basic ">
           <thead>
             <tr>
               <th><input type="checkbox" /></th>
@@ -116,7 +107,7 @@ $slides = json_decode($dataslide, "ture");
             <li class="nav-item">
               <a href="#" class="navbar-nav-link" target="_blank"><i class="icon-file-text2 mr-2"></i> Docs</a>
             </li>
-            <li class="nav-item"> 
+            <li class="nav-item">
               <a href="" class="navbar-nav-link font-weight-semibold"><span class="text-pink-400"><i class="icon-cart2 mr-2"></i>
                   Purchase</span></a>
             </li>

@@ -33,7 +33,7 @@
             "Input Product": ".php",
             "Catagory": ".php",
             "Sub Catagory": ".php",
-            "Brand": ".php",
+            "Brand": "brand_list.php",
             "units": ".php",
             "Input Opening Stock": ".php",
             "Selling Price group": ".php",
