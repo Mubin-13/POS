@@ -53,8 +53,8 @@
 
   <script src="../../../../global_assets/js/plugins/visualization/c3/c3.min.js"></script>
   <script src="../../../../global_assets/js/demo_pages/ecommerce_product_list.js"></script>
-
-
+  <script src="../../../../global_assets/js/demo_pages/uploader_bootstrap.js"></script>
+  <script src="../../../../global_assets/js/plugins/uploaders/fileinput/fileinput.min.js"></script>
   <script src="../../../../global_assets/js/demo_charts/c3/c3_advanced.js"></script>
   <script src="../../../../global_assets/js/demo_charts/c3/c3_bars_pies.js"></script>
   <script src="assets/js/custom.js"></script>

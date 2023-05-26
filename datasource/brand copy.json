@@ -1,0 +1,57 @@
+[
+    {
+        
+        "id":1,
+        "uuid":"01",
+        "src":"../../../../global_assets/images/brands/adidas.png",
+        "BrandName":"Adidas",
+        "alt":"Adidas",
+        "BrandCode":"BN001",
+        "Discription":"Shoes,Sportswear",
+        "Createdby":"Admin"
+    },
+    {
+        
+        "id":2,
+        "uuid":"02",
+        "src":"../../../../global_assets/images/brands/colgate.png",
+        "BrandName":"Colgate",
+        "alt":"Adidas",
+        "BrandCode":"BN001",
+        "Discription":"Shoes,Sportswear",
+        "Createdby":"Admin"
+    },
+    {
+        
+        "id":3,
+        "uuid":"03",
+        "src":"../../../../global_assets/images/brands/adwords.png",
+        "BrandName":"Colgate",
+        "alt":"Adidas",
+        "BrandCode":"BN001",
+        "Discription":"Shoes,Sportswear",
+        "Createdby":"Admin"
+    },
+    {
+        
+        "id":4,
+        "uuid":"04",
+        "src":"../../../../global_assets/images/brands/amazon.png",
+        "BrandName":"Colgate",
+        "alt":"Adidas",
+        "BrandCode":"BN001",
+        "Discription":"Shoes,Sportswear",
+        "Createdby":"Admin"
+    },
+    {
+        
+        "id":5,
+        "uuid":"asdf",
+        "src":"../../../../global_assets/images/brands/bing.png",
+        "BrandName":"Colgate",
+        "alt":"Adidas",
+        "BrandCode":"BN001",
+        "Discription":"Shoes,Sportswear",
+        "Createdby":"Admin"
+    }
+]
