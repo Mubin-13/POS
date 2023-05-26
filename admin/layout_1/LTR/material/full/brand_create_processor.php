@@ -29,21 +29,26 @@ $slide =[
             "Createdby"=> $Createdby
         ];
 
+$currentUniqueId =null;
 
 $dataslide = file_get_contents($datasource . 'brand.json');
 $slides = json_decode($dataslide);
 
-$ids = [];
-foreach($slides as $aslide){
+if(count($slides)>0){
+        $ids = [];
+    foreach($slides as $aslide){
         $ids[]=$aslide->id;
+}
+        sort($ids);
+        $lastIndex = count($ids)-1;
+        $highestId = $ids [$lastIndex];
+        $currentUniqueId=$highestId+1;
+}else{
+    $currentUniqueId=1;
 }
 
 //finding unique idsdd
 
-sort($ids);
-$lastIndex = count($ids)-1;
-$highestId = $ids [$lastIndex];
-$currentUniqueId=$highestId+1;
 $slide['id']= $currentUniqueId;
 // d($slide);
 // d($lastIndex);
@@ -61,5 +66,5 @@ if(file_exists($datasource."brand.json")){
     echo "File not Found";
 }
 if($result){
-    redirect("slider_index.php");
+    redirect("brand_list.php");
 }
