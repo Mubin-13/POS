@@ -41,20 +41,20 @@ $slides = json_decode($dataslide, "ture");
             <a href="grid.php" type="button" class="btn bg-teal btn-ladda btn-ladda-progress" data-style="expand-left" data-spinner-size="20">Grid View</a>
             <div class="mb-3">
               <ul class="list-inline list-inline-condensed mt-3 mb-0">
-                  <li class="list-inline-item"><a href="Brand_Create.php" class="btn btn-outline bg-success btn-icon text-success border-success border-2 rounded-round">
-                      <i class="icon-plus3"></i></a>
+                  <li class="list-inline-item" title="Create"><a href="Brand_Create.php" class="btn btn-outline bg-success btn-icon text-success border-success border-2 rounded-round">
+                      <i class="icon-plus3" ></i></a>
                   </li>
               
                 <li class="list-inline-item"><a href="Brand_edit.php" class="btn btn-outline bg-danger btn-icon text-danger border-danger border-2 rounded-round">
                     <i class="icon-bin"></i></a>
                 </li>
-                <li class="list-inline-item"><a href="Brand_Delete.php" class="btn btn-outline bg-info-800 btn-icon text-info-800 border-info-800 border-2 rounded-round">
+                <li class="list-inline-item" title="Spreadsheet"><a href="Brand_Delete.php" class="btn btn-outline bg-info-800 btn-icon text-info-800 border-info-800 border-2 rounded-round">
                     <i class="icon-file-spreadsheet"></i></a>
                 </li>
-                <li class="list-inline-item"><a href="#" class="btn btn-outline bg-indigo-800 btn-icon text-indigo-800 border-indigo-800 border-2 rounded-round">
+                <li class="list-inline-item" title="PDF"><a href="#" class="btn btn-outline bg-indigo-800 btn-icon text-indigo-800 border-indigo-800 border-2 rounded-round">
                     <i class="icon-file-pdf"></i></a>
                 </li>
-                <li class="list-inline-item"><a href="#" class="btn btn-outline bg-primary-800 btn-icon text-primary-800 border-purple-800 border-2 rounded-round">
+                <li class="list-inline-item" title="Print"><a href="#" class="btn btn-outline bg-primary-800 btn-icon text-primary-800 border-purple-800 border-2 rounded-round">
                     <i class="icon-printer"></i></a>
                 </li>
               </ul>

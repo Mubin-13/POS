@@ -33,6 +33,7 @@ $slide =[
 $dataslide = file_get_contents($datasource . 'brand.json');
 $slides = json_decode($dataslide);
 
+$ids = [];
 foreach($slides as $aslide){
         $ids[]=$aslide->id;
 }

@@ -76,7 +76,7 @@
             </div>
             <div class="d-flex justify-content-start align-item-center">
               <button type="submit" class="btn btn-outline bg-danger btn-icon text-danger border-danger border-2 rounded-round"> Cancel <i class="icon-cross2"></i> </button>
-              <button type="submit" class=" ">Submit <i class="icon-arrow-up-right32"></i> </button>
+              <button type="submit" class=" btn btn-outline bg-success ml-3 btn-icon text-success border-success border-2 rounded-round">Submit <i class="icon-arrow-up-right32"></i> </button>
             </div>
           </form>
         </div>
