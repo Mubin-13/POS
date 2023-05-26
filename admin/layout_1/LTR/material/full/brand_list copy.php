@@ -87,7 +87,7 @@ $slides = json_decode($dataslide, "ture");
                   <div class="d-flex align-items-center">
                     <div class="col-md-2">
                       <a href="<?= $slide['src'] ?>" data-popup="lightbox">
-                        <img src="<?= $slide['src'] ?>" width="100px" alt="" />
+                        <img src="<?= $slide['src'] ?>" width="60px" alt="" />
                       </a>
                     </div>
                   </div>
@@ -99,20 +99,9 @@ $slides = json_decode($dataslide, "ture");
                 <td><span class="badge badge-success"><?= $slide['Createdby'] ?></span></td>
                 <td class="text-center">
                   <div class="list-icons">
-                 
-                 
-                  <button class="btn btn-outline  bg-indigo-800 btn-icon text-indigo-800 border-indigo-800 border-1 rounded-round">
-                  <a href="grid_index.php?id=<?= $slide['id']?>" class="list-icons-item"><i class="icon-eye"></i></a>
-                  </button>
-                  <button class="btn btn-outline  bg-info-800 btn-icon text-info-800 border-secondary border-1 rounded-round">
+                    <a href="grid_index.php?id=<?= $slide['id']?>" class="list-icons-item"><i class="icon-eye text-primary"></i></a>
                     <a href="brand_edit.php?id=<?= $slide['id']?>" class="list-icons-item"><i class="icon-pencil7"></i></a>
-                  </button>
-                  
-                  
-                    <form action="brand_delete.php" method="post">
-                      <button type="submit" class="btn btn-outline  bg-danger btn-icon  text-danger border-danger border-1 rounded-round"><i class="icon-trash"></i></button>
-                      <input type="hidden" name="id" value="<?= $slide['id']?>" />                    
-                    </form>
+                    <a href="brand_delete.php?id=<?= $slide['id']?>" class="list-icons-item"><i class="icon-trash"></i></a>
                   </div>
                 </td>
               </tr>

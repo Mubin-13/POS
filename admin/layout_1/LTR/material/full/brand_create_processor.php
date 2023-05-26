@@ -59,5 +59,6 @@ if(file_exists($datasource."brand.json")){
 }else{
     echo "File not Found";
 }
-
-
+if($result){
+    redirect("slider_index.php");
+}
