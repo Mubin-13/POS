@@ -9,8 +9,7 @@
 // image processing
 
 // store : as json data to json file
-$id="11";
-$uuid="fasdf";
+
 $src=$_GET['src'];
 $BrandName=$_GET['BrandName'];
 $alt=$_GET['alt'];
@@ -20,8 +19,8 @@ $Createdby=$_GET['Createdby'];
 
 
 $slide =[
-            "id"=>$id,
-            "uuid"=>$uuid,
+      
+            "uuid"=>uniqid(),
             "src"=>$src,
             "BrandName"=>$BrandName,
             "alt"=>$alt,
@@ -32,7 +31,23 @@ $slide =[
 
 
 $dataslide = file_get_contents($datasource . 'brand.json');
-$slides = json_decode($dataslide, "ture");
+$slides = json_decode($dataslide);
+
+foreach($slides as $aslide){
+        $ids[]=$aslide->id;
+}
+
+//finding unique idsdd
+
+sort($ids);
+$lastIndex = count($ids)-1;
+$highestId = $ids [$lastIndex];
+$currentUniqueId=$highestId+1;
+$slide['id']= $currentUniqueId;
+// d($slide);
+// d($lastIndex);
+// d($highestId);
+// dd($currentUniqueId);
 
 
 $slides[] = (object)$slide;
@@ -45,4 +60,4 @@ if(file_exists($datasource."brand.json")){
     echo "File not Found";
 }
 
-dd($slides);
+

@@ -1,19 +1,21 @@
 <?php
 include_once($_SERVER['DOCUMENT_ROOT'] . DIRECTORY_SEPARATOR . 'config.php');
+$id= $_GET['id'];
+
 
 $dataslide = file_get_contents($datasource . 'brand.json');
 $slides = json_decode($dataslide, "ture");
 
 
 
-foreach ($slides as $key => $slide) {
-  if($slides == $slide){
+$slide= null;
 
+foreach ($slides as $key => $aslide) {
+  if($aslide['id'] == $id){
+      $slide = $aslide;
+      break;
   }
 }
-
-$sliderIndex= $_GET['sliderIndex'];
-$slide = $slides[$sliderIndex];
 ?>
 <!DOCTYPE html>
 <html lang="en">

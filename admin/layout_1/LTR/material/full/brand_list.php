@@ -45,10 +45,10 @@ $slides = json_decode($dataslide, "ture");
                       <i class="icon-plus3"></i></a>
                   </li>
               
-                <li class="list-inline-item"><a href="#" class="btn btn-outline bg-danger btn-icon text-danger border-danger border-2 rounded-round">
+                <li class="list-inline-item"><a href="Brand_edit.php" class="btn btn-outline bg-danger btn-icon text-danger border-danger border-2 rounded-round">
                     <i class="icon-bin"></i></a>
                 </li>
-                <li class="list-inline-item"><a href="#" class="btn btn-outline bg-info-800 btn-icon text-info-800 border-info-800 border-2 rounded-round">
+                <li class="list-inline-item"><a href="Brand_Delete.php" class="btn btn-outline bg-info-800 btn-icon text-info-800 border-info-800 border-2 rounded-round">
                     <i class="icon-file-spreadsheet"></i></a>
                 </li>
                 <li class="list-inline-item"><a href="#" class="btn btn-outline bg-indigo-800 btn-icon text-indigo-800 border-indigo-800 border-2 rounded-round">
@@ -82,7 +82,7 @@ $slides = json_decode($dataslide, "ture");
               <!-- ...........1........... -->
               <tr>
                 <td><input type="checkbox" /></td>
-                <td><?= $slide['id']  ?></td>
+                <td><?= $slide['id'] ?></td>
                 <td>
                   <div class="d-flex align-items-center">
                     <div class="col-md-2">
@@ -99,9 +99,9 @@ $slides = json_decode($dataslide, "ture");
                 <td><span class="badge badge-success"><?= $slide['Createdby'] ?></span></td>
                 <td class="text-center">
                   <div class="list-icons">
-                    <a href="grid_index.php?sliderIndex=<?= $key - 1 ?>" class="list-icons-item"><i class="icon-eye text-primary"></i></a>
-                    <a href="#" class="list-icons-item"><i class="icon-pencil7"></i></a>
-                    <a href="#" class="list-icons-item"><i class="icon-trash"></i></a>
+                    <a href="grid_index.php?id=<?= $slide['id']?>" class="list-icons-item"><i class="icon-eye text-primary"></i></a>
+                    <a href="brand_edit.php?id=<?= $slide['id']?>" class="list-icons-item"><i class="icon-pencil7"></i></a>
+                    <a href="brand_delete.php?id=<?= $slide['id']?>" class="list-icons-item"><i class="icon-trash"></i></a>
                   </div>
                 </td>
               </tr>
