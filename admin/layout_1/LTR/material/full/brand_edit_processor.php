@@ -59,5 +59,6 @@ if(file_exists($datasource."brand.json")){
     echo "File not Found";
 }
 if($result){
-    redirect("brand_list.php");
+    $message = "Data is updated successfully";
+    redirect("brand_list.php?message=".$message);
 }

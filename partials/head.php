@@ -20,6 +20,7 @@
   <link href="assets/css/layout.min.css" rel="stylesheet" type="text/css" />
   <link href="assets/css/components.min.css" rel="stylesheet" type="text/css" />
   <link href="assets/css/colors.min.css" rel="stylesheet" type="text/css" />
+  <link href="assets/css/coustom.css" rel="stylesheet" type="text/css" />
   <!-- /global stylesheets -->
 
   <!-- Core JS files -->
@@ -58,8 +59,13 @@
   <script src="../../../../global_assets/js/demo_charts/c3/c3_advanced.js"></script>
   <script src="../../../../global_assets/js/demo_charts/c3/c3_bars_pies.js"></script>
   <script src="assets/js/custom.js"></script>
+  <script src="../../../../global_assets/js/demo_pages/datatables_advanced.js"></script>
   <!-- /theme JS files -->
-
+  <script src="../../../../global_assets/js/plugins/tables/datatables/datatables.min.js"></script>
+	<script src="../../../../global_assets/js/plugins/forms/selects/select2.min.js"></script>
+  <script src="../../../../global_assets/js/plugins/media/fancybox.min.js"></script>
+	
+	
   <!-- Coustom JS code for Pai chart  -->
 
 
