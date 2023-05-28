@@ -35,9 +35,9 @@ $slides = json_decode($dataslide, "ture");
         <?php include_once($partials . 'Brand_content_header.php') ?>
         <!-- Content Header -->
         <?php
-          if(array_key_exists('message',$_GET) && !empty($_GET['message'])):
+          if(array_key_exists('message',$_SESSION) && !empty($_SESSION['message'])):
           ?>
-        <div class="alert alert-success"><?=$_GET['message'];?></div>
+        <div class="alert alert-success"><?=$_SESSION['message']; $_SESSION['message']='';?></div>
         <?php
           endif 
           ?>
@@ -50,16 +50,15 @@ $slides = json_decode($dataslide, "ture");
            
           </div>
         </div>
-
-        <table class="table datatable-basic datatable-highlight">
+        <table class="table datatable-highlight text-nowrap text-center " >
           <thead>
             <tr>
               <th><input type="checkbox" /></th>
-              <th>ID</th>
-              <th>Brand Image</th>
-              <th>Brand Name</th>
-              <th>Brand Code</th>
-              <th>Discription</th>
+              <th style="width:20px">ID</th>
+              <th style="width:60px">Brand Image</th>
+              <th style="width:250px">Brand Name</th>
+              <th style="width:250px">Brand Code</th>
+              <th style="width:600px">Discription</th>
               <th>Created by</th>
               <th class="text-center">Actions</th>
             </tr>
@@ -75,8 +74,8 @@ $slides = json_decode($dataslide, "ture");
                 <td>
                   <div class="d-flex align-items-center">
                     <div class="col-md-2">
-                      <a href="<?= $slide['src'] ?>" data-popup="lightbox">
-                        <img src="<?= $slide['src'] ?>" width="100px" alt="" />
+                      <a href="<?= $assets. $slide['src'] ?>" data-popup="lightbox">
+                        <img src="<?= $assets. $slide['src'] ?>" width="100px" alt="" />
                       </a>
                     </div>
                   </div>

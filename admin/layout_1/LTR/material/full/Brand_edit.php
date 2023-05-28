@@ -43,7 +43,7 @@ foreach ($slides as $key => $aslide) {
       <!-- Content area -->
       <div class="card card-body">
         <div class="row">
-          <form action="brand_edit_processor.php" method="post" class="col-lg-12 col-sm-6 col-12 row">
+          <form action="brand_edit_processor.php" method="post" class="col-lg-12 col-sm-6 col-12 row" enctype="multipart/form-data">
             <div class="col-lg-6 col-sm-6 col-12">
             <input name="uuid" type="hidden" class="form-control"  value="<?= $slide['uuid'] ?>"/>
               <div class="form-group">
@@ -93,7 +93,9 @@ foreach ($slides as $key => $aslide) {
             <div class="col-lg-12 col-sm-6 col-12">
               <div class="form-group">
                 <label class="font-weight-semibold">Product Picture upload:</label>
-                <input type="file" class="file-input" multiple="multiple" data-fouc />
+                <input type="file" name="picture" class="file-input" multiple="multiple" data-fouc />
+                <input name="old_picture" type="text" class="form-control"  value="<?= $slide['src'] ?>"/>
+       
               </div>
             </div>
             <div class="d-flex justify-content-start align-item-center">

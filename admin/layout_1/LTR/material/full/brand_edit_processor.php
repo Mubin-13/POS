@@ -2,7 +2,29 @@
 <?php
 
 // d($_POST);
+// dd($_FILES);
+$src= null;
+$new_src=null;
+$old_src=null;
+$old_src= $_POST['old_picture'];
 
+
+if(array_key_exists('picture',$_FILES) && !empty($_FILES['picture']['name'])){
+$filename = $_FILES['picture']['name'];
+$filename = uniqid()."_". $_FILES['picture']['name'];
+$target = $_FILES['picture']['tmp_name'];
+$destination = $uploads.$filename;
+
+if(upload($target,$destination)){
+    $new_src=$filename;
+}
+
+if(file_exists($uploads.$old_src)){
+    unlink($uploads.$old_src);
+}else{
+    echo("file not Exists");
+}
+}
 
 // sanitize
 
@@ -13,12 +35,14 @@
 // store : as json data to json file
 $uuid = $_POST['uuid'];
 $id = $_POST['id'];
-$src=$_POST['src'];
+$old_src=$_POST['old_picture'];
+$src= $new_src ?? $old_src;
 $BrandName=$_POST['BrandName'];
 $alt=$_POST['alt'];
 $BrandCode=$_POST['BrandCode'];
 $Discription=$_POST['Discription'];
 $Createdby=$_POST['Createdby'];
+
 
 
 $slide =[
@@ -60,5 +84,7 @@ if(file_exists($datasource."brand.json")){
 }
 if($result){
     $message = "Data is updated successfully";
-    redirect("brand_list.php?message=".$message);
+    set_session('message',$message);
+    // re direct("brand_list.php?message=".$message);
+    redirect("brand_list.php");
 }

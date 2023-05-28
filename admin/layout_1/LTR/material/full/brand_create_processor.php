@@ -2,6 +2,21 @@
 <?php
 
 
+// dd($_FILES);
+
+
+$filename = $_FILES['picture']['name'];
+$filename = uniqid()."_". $_FILES['picture']['name'];
+$target = $_FILES['picture']['tmp_name'];
+$destination = $uploads.$filename;
+
+$src= null;
+if(upload($target,$destination)){
+    $src=$filename;
+}
+
+
+
 // sanitize
 
 // validation
@@ -10,12 +25,13 @@
 
 // store : as json data to json file
 
-$src=$_GET['src'];
-$BrandName=$_GET['BrandName'];
-$alt=$_GET['alt'];
-$BrandCode=$_GET['BrandCode'];
-$Discription=$_GET['Discription'];
-$Createdby=$_GET['Createdby'];
+// $src=$_POST['src'];
+
+$BrandName=$_POST['BrandName'];
+$alt=$_POST['alt'];
+$BrandCode=$_POST['BrandCode'];
+$Discription=$_POST['Discription'];
+$Createdby=$_POST['Createdby'];
 
 
 $slide =[

@@ -9,6 +9,7 @@ $slides = json_decode($dataslide, "ture");
 
 
 
+
 $slide= null;
 
 foreach ($slides as $key => $aslide) {
@@ -17,6 +18,7 @@ foreach ($slides as $key => $aslide) {
       break;
   }
 }
+
 unset($slides[$key]);
 $slides= array_values($slides);
 $data_slide = json_encode($slides);
