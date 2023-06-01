@@ -1,6 +1,6 @@
 <?php
 include_once($_SERVER['DOCUMENT_ROOT'] . DIRECTORY_SEPARATOR . 'config.php');
-$id= $_GET['id'];
+$id = $_GET['id'];
 
 
 $dataslide = file_get_contents($datasource . 'brand.json');
@@ -8,12 +8,12 @@ $slides = json_decode($dataslide, "ture");
 
 
 
-$slide= null;
+$slide = null;
 
 foreach ($slides as $key => $aslide) {
-  if($aslide['id'] == $id){
-      $slide = $aslide;
-      break;
+  if ($aslide['id'] == $id) {
+    $slide = $aslide;
+    break;
   }
 }
 
@@ -45,10 +45,10 @@ foreach ($slides as $key => $aslide) {
         <div class="row">
           <form action="brand_edit_processor.php" method="post" class="col-lg-12 col-sm-6 col-12 row" enctype="multipart/form-data">
             <div class="col-lg-6 col-sm-6 col-12">
-            <input name="uuid" type="hidden" class="form-control"  value="<?= $slide['uuid'] ?>"/>
+              <input name="uuid" type="hidden" class="form-control" value="<?= $slide['uuid'] ?>" />
               <div class="form-group">
                 <label>Brand Name</label><br />
-                <input name="BrandName" type="text" class="form-control" placeholder="Type Brand Name" value="<?= $slide['BrandName'] ?>"/>
+                <input name="BrandName" type="text" class="form-control" placeholder="Type Brand Name" value="<?= $slide['BrandName'] ?>" />
               </div>
             </div>
             <div class="col-lg-6 col-sm-6 col-12 ">
@@ -60,13 +60,13 @@ foreach ($slides as $key => $aslide) {
             <div class="col-lg-12">
               <div class="form-group">
                 <label>alter</label>
-                <input name="alt" class="form-control" placeholder="Type Discription"value="<?= $slide['alt'] ?>"></input>
+                <input name="alt" class="form-control" placeholder="Type Discription" value="<?= $slide['alt'] ?>"></input>
               </div>
             </div>
             <div class="col-lg-12">
               <div class="form-group">
                 <label>Description</label>
-                <input name="Discription" class="form-control" placeholder="Type Discription" value="<?= $slide['Discription'] ?>" ></input>
+                <input name="Discription" class="form-control" placeholder="Type Discription" value="<?= $slide['Discription'] ?>"></input>
               </div>
             </div>
             <div class="col-lg-12">
@@ -80,22 +80,22 @@ foreach ($slides as $key => $aslide) {
                 <label>Created by</label>
                 <!-- <input name="Createdby" type="text" class="form-control" placeholder="Type Strong URl" /> -->
                 <select name="Createdby" class="form-control form-control-select2" data-placeholder="Choose Persentage">
-                    <option>Admin</option>
-                    <option>Manager</option>
-                    <option>Ass.Manager</option>
-                    <option>Executive</option>
-                    <option>Accessories</option>
-                  </select>
+                  <option>Admin</option>
+                  <option>Manager</option>
+                  <option>Ass.Manager</option>
+                  <option>Executive</option>
+                  <option>Accessories</option>
+                </select>
               </div>
             </div>
-            <input name="id" type="hidden" class="form-control"  value="<?= $slide['id'] ?>"/>
+            <input name="id" type="hidden" class="form-control" value="<?= $slide['id'] ?>" />
 
             <div class="col-lg-12 col-sm-6 col-12">
               <div class="form-group">
                 <label class="font-weight-semibold">Product Picture upload:</label>
                 <input type="file" name="picture" class="file-input" multiple="multiple" data-fouc />
-                <input name="old_picture" type="text" class="form-control"  value="<?= $slide['src'] ?>"/>
-       
+                <input name="old_picture" type="text" class="form-control" value="<?= $slide['src'] ?>" />
+
               </div>
             </div>
             <div class="d-flex justify-content-start align-item-center">

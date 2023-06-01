@@ -4,6 +4,14 @@ $dataslide = file_get_contents($datasource . 'brand.json');
 $slides = json_decode($dataslide, "ture");
 // d($slides);
 
+
+
+$mpdf = new \Mpdf\Mpdf();
+$mpdf->WriteHTML('<h1>Hello world!</h1>');
+$mpdf->Output();
+
+
+
 ?>
 <!DOCTYPE html>
 <html lang="en">

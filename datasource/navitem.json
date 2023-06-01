@@ -28,7 +28,7 @@
         "icon": "icon-store",
         "sub": {
           "title": {
-            "List Product": ".php",
+            "List Product": "product_list.php",
             "Add Product": ".php",
             "Input Product": ".php",
             "Catagory": ".php",
